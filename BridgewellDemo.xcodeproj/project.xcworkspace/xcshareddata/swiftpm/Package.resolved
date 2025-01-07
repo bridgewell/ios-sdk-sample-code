@@ -1,0 +1,15 @@
+{
+  "originHash" : "5494f29ddeaa183840be8524b0be206bca69f13b8c6d3574822b4e1d4f525858",
+  "pins" : [
+    {
+      "identity" : "bridgewell-mobile-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bridgewell/Bridgewell-mobile-ios.git",
+      "state" : {
+        "revision" : "79eb6853ed9b873a11d13d85c51983312631c03d",
+        "version" : "3.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}

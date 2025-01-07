@@ -1,0 +1,11 @@
+**/xcuserdata/
+PodLocals
+Pods
+PodLocals
+# build
+xcov_output
+
+*.DS_Store
+/.idea/
+**/GeneratedMocks.swift
+/.scannerwork/

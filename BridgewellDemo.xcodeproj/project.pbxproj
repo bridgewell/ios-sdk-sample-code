@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7434317C2CABFEB400A64DAB /* RepresentableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434317B2CABFEB400A64DAB /* RepresentableViews.swift */; };
+		74445B532CABF6E00081A91C /* InAppCenterBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74445B522CABF6E00081A91C /* InAppCenterBannerViewController.swift */; };
+		746380C52D2CD44000CB8E58 /* BridgewellFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 746380C42D2CD44000CB8E58 /* BridgewellFramework */; };
+		746380C72D2CD44000CB8E58 /* PrebidMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 746380C62D2CD44000CB8E58 /* PrebidMobile */; };
+		746380CA2D2CD4D900CB8E58 /* BridgewellFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 746380C92D2CD4D900CB8E58 /* BridgewellFramework */; };
+		746380CC2D2CD4D900CB8E58 /* PrebidMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 746380CB2D2CD4D900CB8E58 /* PrebidMobile */; };
+		746380CE2D2CD4E300CB8E58 /* BridgewellFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 746380CD2D2CD4E300CB8E58 /* BridgewellFramework */; };
+		746380D02D2CD4E300CB8E58 /* PrebidMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 746380CF2D2CD4E300CB8E58 /* PrebidMobile */; };
+		746BE5442C92DAEA0056F815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746BE5432C92DAEA0056F815 /* AppDelegate.swift */; };
+		746BE5462C92DAEA0056F815 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746BE5452C92DAEA0056F815 /* SceneDelegate.swift */; };
+		746BE5482C92DAEA0056F815 /* BannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746BE5472C92DAEA0056F815 /* BannerAdViewController.swift */; };
+		746BE54B2C92DAEA0056F815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 746BE54A2C92DAEA0056F815 /* Base */; };
+		746BE54D2C92DAEB0056F815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746BE54C2C92DAEB0056F815 /* Assets.xcassets */; };
+		746BE5502C92DAEB0056F815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 746BE54F2C92DAEB0056F815 /* Base */; };
+		746BE55E2C92DB200056F815 /* BridgewellDemoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746BE55D2C92DB200056F815 /* BridgewellDemoSwiftUIApp.swift */; };
+		746BE5622C92DB210056F815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746BE5612C92DB210056F815 /* Assets.xcassets */; };
+		746BE5652C92DB210056F815 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746BE5642C92DB210056F815 /* Preview Assets.xcassets */; };
+		746BE5712C92DB400056F815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746BE5702C92DB400056F815 /* AppDelegate.m */; };
+		746BE5742C92DB400056F815 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746BE5732C92DB400056F815 /* SceneDelegate.m */; };
+		746BE57A2C92DB400056F815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 746BE5792C92DB400056F815 /* Base */; };
+		746BE57C2C92DB410056F815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746BE57B2C92DB410056F815 /* Assets.xcassets */; };
+		746BE57F2C92DB410056F815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 746BE57E2C92DB410056F815 /* Base */; };
+		746BE5822C92DB410056F815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746BE5812C92DB410056F815 /* main.m */; };
+		746BE6F52C9443320056F815 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746BE6F42C9443320056F815 /* WebViewController.swift */; };
+		747CB4042CF4386A00CE2CB8 /* RightStickyAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CB4032CF4386A00CE2CB8 /* RightStickyAdViewController.swift */; };
+		747CB4062CF43AFB00CE2CB8 /* MobileStickyAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CB4052CF43AFB00CE2CB8 /* MobileStickyAdViewController.swift */; };
+		748211B22C98318B00323540 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748211B02C98318B00323540 /* WebViewController.m */; };
+		748352182C99884F00A515E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748352172C99884F00A515E0 /* MainView.swift */; };
+		7483521C2C998B4500A515E0 /* WebApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483521B2C998B4500A515E0 /* WebApiView.swift */; };
+		749689462CF45AE500B59F0E /* InAppBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749689452CF45AE500B59F0E /* InAppBackgroundView.xib */; };
+		749689492CF45B0900B59F0E /* InAppBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 749689482CF45B0900B59F0E /* InAppBackgroundView.m */; };
+		7496894C2CF45BBF00B59F0E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7496894B2CF45BBF00B59F0E /* MainViewController.m */; };
+		7496894F2CF45D6900B59F0E /* BannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7496894E2CF45D6900B59F0E /* BannerAdViewController.m */; };
+		749689522CF4612B00B59F0E /* MobileStickyAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749689512CF4612B00B59F0E /* MobileStickyAdViewController.m */; };
+		749689552CF4631900B59F0E /* RightStickyAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749689542CF4631900B59F0E /* RightStickyAdViewController.m */; };
+		749689582CF4642000B59F0E /* InAppCenterBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749689572CF4642000B59F0E /* InAppCenterBannerViewController.m */; };
+		7496895E2CF46ADE00B59F0E /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496895D2CF46ADE00B59F0E /* BannerAdView.swift */; };
+		749689602CF46AED00B59F0E /* MobileStickyAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496895F2CF46AED00B59F0E /* MobileStickyAdView.swift */; };
+		749689622CF46B0200B59F0E /* RightStickyAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689612CF46B0200B59F0E /* RightStickyAdView.swift */; };
+		749689642CF46FFE00B59F0E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689632CF46FFE00B59F0E /* BackgroundView.swift */; };
+		749689682CF4754B00B59F0E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689672CF4753B00B59F0E /* View+Extensions.swift */; };
+		7496896A2CF4824200B59F0E /* PopupAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749689692CF4824200B59F0E /* PopupAdView.swift */; };
+		74C29DC12CEF266300036644 /* InAppBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C29DC02CEF266300036644 /* InAppBackgroundView.xib */; };
+		74C29DC22CEF266300036644 /* InAppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C29DBF2CEF266300036644 /* InAppBackgroundView.swift */; };
+		74D1661C2CF4286100AC3630 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1661B2CF4286100AC3630 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7440A0AE2CA2A05D000E6DAC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7440A0B12CA2A060000E6DAC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7440A0B42CA2A062000E6DAC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7434317B2CABFEB400A64DAB /* RepresentableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentableViews.swift; sourceTree = "<group>"; };
+		74445B522CABF6E00081A91C /* InAppCenterBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppCenterBannerViewController.swift; sourceTree = "<group>"; };
+		746BE5402C92DAEA0056F815 /* BridgewellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgewellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746BE5432C92DAEA0056F815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746BE5452C92DAEA0056F815 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746BE5472C92DAEA0056F815 /* BannerAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdViewController.swift; sourceTree = "<group>"; };
+		746BE54A2C92DAEA0056F815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746BE54C2C92DAEB0056F815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746BE54F2C92DAEB0056F815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746BE5512C92DAEB0056F815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746BE55B2C92DB200056F815 /* BridgewellDemoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgewellDemoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746BE55D2C92DB200056F815 /* BridgewellDemoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgewellDemoSwiftUIApp.swift; sourceTree = "<group>"; };
+		746BE5612C92DB210056F815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746BE5642C92DB210056F815 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		746BE56D2C92DB400056F815 /* BridgewellDemoObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgewellDemoObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746BE56F2C92DB400056F815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		746BE5702C92DB400056F815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		746BE5722C92DB400056F815 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		746BE5732C92DB400056F815 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		746BE5792C92DB400056F815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746BE57B2C92DB410056F815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746BE57E2C92DB410056F815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746BE5802C92DB410056F815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746BE5812C92DB410056F815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		746BE6F42C9443320056F815 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		747CB4032CF4386A00CE2CB8 /* RightStickyAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightStickyAdViewController.swift; sourceTree = "<group>"; };
+		747CB4052CF43AFB00CE2CB8 /* MobileStickyAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileStickyAdViewController.swift; sourceTree = "<group>"; };
+		748211B02C98318B00323540 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		748211B12C98318B00323540 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		748352172C99884F00A515E0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7483521B2C998B4500A515E0 /* WebApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiView.swift; sourceTree = "<group>"; };
+		749689452CF45AE500B59F0E /* InAppBackgroundView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InAppBackgroundView.xib; sourceTree = "<group>"; };
+		749689472CF45B0900B59F0E /* InAppBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppBackgroundView.h; sourceTree = "<group>"; };
+		749689482CF45B0900B59F0E /* InAppBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppBackgroundView.m; sourceTree = "<group>"; };
+		7496894A2CF45BBF00B59F0E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7496894B2CF45BBF00B59F0E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7496894D2CF45D6900B59F0E /* BannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerAdViewController.h; sourceTree = "<group>"; };
+		7496894E2CF45D6900B59F0E /* BannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerAdViewController.m; sourceTree = "<group>"; };
+		749689502CF4612B00B59F0E /* MobileStickyAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileStickyAdViewController.h; sourceTree = "<group>"; };
+		749689512CF4612B00B59F0E /* MobileStickyAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileStickyAdViewController.m; sourceTree = "<group>"; };
+		749689532CF4631900B59F0E /* RightStickyAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightStickyAdViewController.h; sourceTree = "<group>"; };
+		749689542CF4631900B59F0E /* RightStickyAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightStickyAdViewController.m; sourceTree = "<group>"; };
+		749689562CF4642000B59F0E /* InAppCenterBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppCenterBannerViewController.h; sourceTree = "<group>"; };
+		749689572CF4642000B59F0E /* InAppCenterBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppCenterBannerViewController.m; sourceTree = "<group>"; };
+		7496895D2CF46ADE00B59F0E /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		7496895F2CF46AED00B59F0E /* MobileStickyAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileStickyAdView.swift; sourceTree = "<group>"; };
+		749689612CF46B0200B59F0E /* RightStickyAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightStickyAdView.swift; sourceTree = "<group>"; };
+		749689632CF46FFE00B59F0E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		749689672CF4753B00B59F0E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		749689692CF4824200B59F0E /* PopupAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAdView.swift; sourceTree = "<group>"; };
+		74C29DBF2CEF266300036644 /* InAppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppBackgroundView.swift; sourceTree = "<group>"; };
+		74C29DC02CEF266300036644 /* InAppBackgroundView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InAppBackgroundView.xib; sourceTree = "<group>"; };
+		74D1661B2CF4286100AC3630 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746BE53D2C92DAEA0056F815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746380C72D2CD44000CB8E58 /* PrebidMobile in Frameworks */,
+				746380C52D2CD44000CB8E58 /* BridgewellFramework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746BE5582C92DB200056F815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746380CC2D2CD4D900CB8E58 /* PrebidMobile in Frameworks */,
+				746380CA2D2CD4D900CB8E58 /* BridgewellFramework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746BE56A2C92DB400056F815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746380D02D2CD4E300CB8E58 /* PrebidMobile in Frameworks */,
+				746380CE2D2CD4E300CB8E58 /* BridgewellFramework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		746380C82D2CD4D900CB8E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		746BE5372C92DAEA0056F815 = {
+			isa = PBXGroup;
+			children = (
+				746BE5422C92DAEA0056F815 /* BridgewellDemo */,
+				746BE56E2C92DB400056F815 /* BridgewellDemoObjectiveC */,
+				746BE55C2C92DB200056F815 /* BridgewellDemoSwiftUI */,
+				746380C82D2CD4D900CB8E58 /* Frameworks */,
+				746BE5412C92DAEA0056F815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		746BE5412C92DAEA0056F815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746BE5402C92DAEA0056F815 /* BridgewellDemo.app */,
+				746BE55B2C92DB200056F815 /* BridgewellDemoSwiftUI.app */,
+				746BE56D2C92DB400056F815 /* BridgewellDemoObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		746BE5422C92DAEA0056F815 /* BridgewellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				746BE5492C92DAEA0056F815 /* Main.storyboard */,
+				74C29DC02CEF266300036644 /* InAppBackgroundView.xib */,
+				74C29DBF2CEF266300036644 /* InAppBackgroundView.swift */,
+				746BE5432C92DAEA0056F815 /* AppDelegate.swift */,
+				746BE5452C92DAEA0056F815 /* SceneDelegate.swift */,
+				74D1661B2CF4286100AC3630 /* MainViewController.swift */,
+				746BE5472C92DAEA0056F815 /* BannerAdViewController.swift */,
+				747CB4052CF43AFB00CE2CB8 /* MobileStickyAdViewController.swift */,
+				747CB4032CF4386A00CE2CB8 /* RightStickyAdViewController.swift */,
+				74445B522CABF6E00081A91C /* InAppCenterBannerViewController.swift */,
+				746BE6F42C9443320056F815 /* WebViewController.swift */,
+				746BE54C2C92DAEB0056F815 /* Assets.xcassets */,
+				746BE54E2C92DAEB0056F815 /* LaunchScreen.storyboard */,
+				746BE5512C92DAEB0056F815 /* Info.plist */,
+			);
+			path = BridgewellDemo;
+			sourceTree = "<group>";
+		};
+		746BE55C2C92DB200056F815 /* BridgewellDemoSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				749689672CF4753B00B59F0E /* View+Extensions.swift */,
+				746BE55D2C92DB200056F815 /* BridgewellDemoSwiftUIApp.swift */,
+				749689632CF46FFE00B59F0E /* BackgroundView.swift */,
+				748352172C99884F00A515E0 /* MainView.swift */,
+				749689692CF4824200B59F0E /* PopupAdView.swift */,
+				7496895F2CF46AED00B59F0E /* MobileStickyAdView.swift */,
+				749689612CF46B0200B59F0E /* RightStickyAdView.swift */,
+				7496895D2CF46ADE00B59F0E /* BannerAdView.swift */,
+				7434317B2CABFEB400A64DAB /* RepresentableViews.swift */,
+				7483521B2C998B4500A515E0 /* WebApiView.swift */,
+				746BE5612C92DB210056F815 /* Assets.xcassets */,
+				746BE5632C92DB210056F815 /* Preview Content */,
+			);
+			path = BridgewellDemoSwiftUI;
+			sourceTree = "<group>";
+		};
+		746BE5632C92DB210056F815 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				746BE5642C92DB210056F815 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		746BE56E2C92DB400056F815 /* BridgewellDemoObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				746BE5782C92DB400056F815 /* Main.storyboard */,
+				749689452CF45AE500B59F0E /* InAppBackgroundView.xib */,
+				749689472CF45B0900B59F0E /* InAppBackgroundView.h */,
+				749689482CF45B0900B59F0E /* InAppBackgroundView.m */,
+				746BE56F2C92DB400056F815 /* AppDelegate.h */,
+				746BE5702C92DB400056F815 /* AppDelegate.m */,
+				746BE5722C92DB400056F815 /* SceneDelegate.h */,
+				746BE5732C92DB400056F815 /* SceneDelegate.m */,
+				7496894A2CF45BBF00B59F0E /* MainViewController.h */,
+				7496894B2CF45BBF00B59F0E /* MainViewController.m */,
+				7496894D2CF45D6900B59F0E /* BannerAdViewController.h */,
+				7496894E2CF45D6900B59F0E /* BannerAdViewController.m */,
+				749689502CF4612B00B59F0E /* MobileStickyAdViewController.h */,
+				749689512CF4612B00B59F0E /* MobileStickyAdViewController.m */,
+				749689532CF4631900B59F0E /* RightStickyAdViewController.h */,
+				749689542CF4631900B59F0E /* RightStickyAdViewController.m */,
+				749689562CF4642000B59F0E /* InAppCenterBannerViewController.h */,
+				749689572CF4642000B59F0E /* InAppCenterBannerViewController.m */,
+				746BE57B2C92DB410056F815 /* Assets.xcassets */,
+				746BE57D2C92DB410056F815 /* LaunchScreen.storyboard */,
+				746BE5802C92DB410056F815 /* Info.plist */,
+				746BE5812C92DB410056F815 /* main.m */,
+				748211B12C98318B00323540 /* WebViewController.h */,
+				748211B02C98318B00323540 /* WebViewController.m */,
+			);
+			path = BridgewellDemoObjectiveC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746BE53F2C92DAEA0056F815 /* BridgewellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746BE5542C92DAEB0056F815 /* Build configuration list for PBXNativeTarget "BridgewellDemo" */;
+			buildPhases = (
+				746BE53C2C92DAEA0056F815 /* Sources */,
+				746BE53D2C92DAEA0056F815 /* Frameworks */,
+				746BE53E2C92DAEA0056F815 /* Resources */,
+				7440A0AE2CA2A05D000E6DAC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgewellDemo;
+			productName = BridgewellDemo;
+			productReference = 746BE5402C92DAEA0056F815 /* BridgewellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746BE55A2C92DB200056F815 /* BridgewellDemoSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746BE5662C92DB210056F815 /* Build configuration list for PBXNativeTarget "BridgewellDemoSwiftUI" */;
+			buildPhases = (
+				746BE5572C92DB200056F815 /* Sources */,
+				746BE5582C92DB200056F815 /* Frameworks */,
+				746BE5592C92DB200056F815 /* Resources */,
+				7440A0B12CA2A060000E6DAC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgewellDemoSwiftUI;
+			productName = BridgewellDemoSwiftUI;
+			productReference = 746BE55B2C92DB200056F815 /* BridgewellDemoSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746BE56C2C92DB400056F815 /* BridgewellDemoObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746BE5832C92DB410056F815 /* Build configuration list for PBXNativeTarget "BridgewellDemoObjectiveC" */;
+			buildPhases = (
+				746BE5692C92DB400056F815 /* Sources */,
+				746BE56A2C92DB400056F815 /* Frameworks */,
+				746BE56B2C92DB400056F815 /* Resources */,
+				7440A0B42CA2A062000E6DAC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgewellDemoObjectiveC;
+			productName = BridgewellDemoObjectiveC;
+			productReference = 746BE56D2C92DB400056F815 /* BridgewellDemoObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746BE5382C92DAEA0056F815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					746BE53F2C92DAEA0056F815 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					746BE55A2C92DB200056F815 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					746BE56C2C92DB400056F815 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 746BE53B2C92DAEA0056F815 /* Build configuration list for PBXProject "BridgewellDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 746BE5372C92DAEA0056F815;
+			packageReferences = (
+				746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */,
+			);
+			productRefGroup = 746BE5412C92DAEA0056F815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				746BE53F2C92DAEA0056F815 /* BridgewellDemo */,
+				746BE55A2C92DB200056F815 /* BridgewellDemoSwiftUI */,
+				746BE56C2C92DB400056F815 /* BridgewellDemoObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746BE53E2C92DAEA0056F815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746BE54D2C92DAEB0056F815 /* Assets.xcassets in Resources */,
+				746BE5502C92DAEB0056F815 /* Base in Resources */,
+				746BE54B2C92DAEA0056F815 /* Base in Resources */,
+				74C29DC12CEF266300036644 /* InAppBackgroundView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746BE5592C92DB200056F815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746BE5652C92DB210056F815 /* Preview Assets.xcassets in Resources */,
+				746BE5622C92DB210056F815 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746BE56B2C92DB400056F815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746BE57C2C92DB410056F815 /* Assets.xcassets in Resources */,
+				746BE57F2C92DB410056F815 /* Base in Resources */,
+				746BE57A2C92DB400056F815 /* Base in Resources */,
+				749689462CF45AE500B59F0E /* InAppBackgroundView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746BE53C2C92DAEA0056F815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D1661C2CF4286100AC3630 /* MainViewController.swift in Sources */,
+				746BE5482C92DAEA0056F815 /* BannerAdViewController.swift in Sources */,
+				74C29DC22CEF266300036644 /* InAppBackgroundView.swift in Sources */,
+				746BE5442C92DAEA0056F815 /* AppDelegate.swift in Sources */,
+				746BE5462C92DAEA0056F815 /* SceneDelegate.swift in Sources */,
+				74445B532CABF6E00081A91C /* InAppCenterBannerViewController.swift in Sources */,
+				746BE6F52C9443320056F815 /* WebViewController.swift in Sources */,
+				747CB4062CF43AFB00CE2CB8 /* MobileStickyAdViewController.swift in Sources */,
+				747CB4042CF4386A00CE2CB8 /* RightStickyAdViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746BE5572C92DB200056F815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749689642CF46FFE00B59F0E /* BackgroundView.swift in Sources */,
+				748352182C99884F00A515E0 /* MainView.swift in Sources */,
+				7496896A2CF4824200B59F0E /* PopupAdView.swift in Sources */,
+				749689682CF4754B00B59F0E /* View+Extensions.swift in Sources */,
+				7434317C2CABFEB400A64DAB /* RepresentableViews.swift in Sources */,
+				749689602CF46AED00B59F0E /* MobileStickyAdView.swift in Sources */,
+				7496895E2CF46ADE00B59F0E /* BannerAdView.swift in Sources */,
+				7483521C2C998B4500A515E0 /* WebApiView.swift in Sources */,
+				746BE55E2C92DB200056F815 /* BridgewellDemoSwiftUIApp.swift in Sources */,
+				749689622CF46B0200B59F0E /* RightStickyAdView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746BE5692C92DB400056F815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749689552CF4631900B59F0E /* RightStickyAdViewController.m in Sources */,
+				749689492CF45B0900B59F0E /* InAppBackgroundView.m in Sources */,
+				7496894F2CF45D6900B59F0E /* BannerAdViewController.m in Sources */,
+				7496894C2CF45BBF00B59F0E /* MainViewController.m in Sources */,
+				748211B22C98318B00323540 /* WebViewController.m in Sources */,
+				749689522CF4612B00B59F0E /* MobileStickyAdViewController.m in Sources */,
+				746BE5712C92DB400056F815 /* AppDelegate.m in Sources */,
+				746BE5822C92DB410056F815 /* main.m in Sources */,
+				749689582CF4642000B59F0E /* InAppCenterBannerViewController.m in Sources */,
+				746BE5742C92DB400056F815 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		746BE5492C92DAEA0056F815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746BE54A2C92DAEA0056F815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		746BE54E2C92DAEB0056F815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746BE54F2C92DAEB0056F815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746BE5782C92DB400056F815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746BE5792C92DB400056F815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		746BE57D2C92DB410056F815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746BE57E2C92DB410056F815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		746BE5522C92DAEB0056F815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		746BE5532C92DAEB0056F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746BE5552C92DAEB0056F815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridgewellDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgewell.core.dev.BridgewellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		746BE5562C92DAEB0056F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridgewellDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgewell.core.dev.BridgewellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		746BE5672C92DB210056F815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BridgewellDemoSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgewell.core.dev.BridgewellDemoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		746BE5682C92DB210056F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BridgewellDemoSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgewell.core.dev.BridgewellDemoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		746BE5842C92DB410056F815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFCEVN3M4T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridgewellDemoObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgewell.core.dev.BridgewellDemoObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		746BE5852C92DB410056F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFCEVN3M4T;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridgewellDemoObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bridgewell.core.dev.BridgewellDemoObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		746BE53B2C92DAEA0056F815 /* Build configuration list for PBXProject "BridgewellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746BE5522C92DAEB0056F815 /* Debug */,
+				746BE5532C92DAEB0056F815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746BE5542C92DAEB0056F815 /* Build configuration list for PBXNativeTarget "BridgewellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746BE5552C92DAEB0056F815 /* Debug */,
+				746BE5562C92DAEB0056F815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746BE5662C92DB210056F815 /* Build configuration list for PBXNativeTarget "BridgewellDemoSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746BE5672C92DB210056F815 /* Debug */,
+				746BE5682C92DB210056F815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746BE5832C92DB410056F815 /* Build configuration list for PBXNativeTarget "BridgewellDemoObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746BE5842C92DB410056F815 /* Debug */,
+				746BE5852C92DB410056F815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bridgewell/Bridgewell-mobile-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		746380C42D2CD44000CB8E58 /* BridgewellFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */;
+			productName = BridgewellFramework;
+		};
+		746380C62D2CD44000CB8E58 /* PrebidMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */;
+			productName = PrebidMobile;
+		};
+		746380C92D2CD4D900CB8E58 /* BridgewellFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */;
+			productName = BridgewellFramework;
+		};
+		746380CB2D2CD4D900CB8E58 /* PrebidMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */;
+			productName = PrebidMobile;
+		};
+		746380CD2D2CD4E300CB8E58 /* BridgewellFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */;
+			productName = BridgewellFramework;
+		};
+		746380CF2D2CD4E300CB8E58 /* PrebidMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 746380C32D2CD44000CB8E58 /* XCRemoteSwiftPackageReference "Bridgewell-mobile-ios" */;
+			productName = PrebidMobile;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 746BE5382C92DAEA0056F815 /* Project object */;
+}
