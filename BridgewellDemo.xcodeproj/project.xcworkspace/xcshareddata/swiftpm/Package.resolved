@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bridgewell/Bridgewell-mobile-ios.git",
       "state" : {
-        "revision" : "79eb6853ed9b873a11d13d85c51983312631c03d",
-        "version" : "3.3.0"
+        "revision" : "2325e5d0fb3ad51fd629e3a622c698cfe001ed2c",
+        "version" : "3.4.0"
       }
     }
   ],

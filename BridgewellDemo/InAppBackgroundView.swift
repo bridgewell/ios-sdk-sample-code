@@ -2,7 +2,6 @@
 //  InAppBackgroundView.swift
 //  ExampleApp
 //
-//  Created by Nguyễn Mai Quân on 20/11/24.
 //
 
 import Foundation
